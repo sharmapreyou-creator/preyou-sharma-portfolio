@@ -1,0 +1,35 @@
+{
+  "name": "preyou-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "fonts": "node scripts/copy-fonts.mjs",
+    "postinstall": "node scripts/copy-fonts.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "check": "node scripts/check-layout.mjs"
+  },
+  "dependencies": {
+    "lenis": "^1.3.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@fontsource-variable/inter-tight": "^5",
+    "@fontsource-variable/jetbrains-mono": "^5",
+    "@fontsource/instrument-serif": "^5",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^15.5.0",
+    "playwright": "^1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
